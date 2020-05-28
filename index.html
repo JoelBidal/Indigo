@@ -1,106 +1,119 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ÍNDIGO</title>
+            <title>ÍNDIGO</title>
         <meta name="description" content="producciones audiovisuales"/>
         <meta name="author" content="índigo cine"/> 
         <meta name="keywords" content="cine, producción, videoclips, audiovisual"/>
-        <link rel="icon" type="image/png" href="imagenes/icon-indigo.png"/>
+        <link rel="icon" type="image/png" href="imagenes/fav-icon-indigo.png"/>
         <link href="https://fonts.googleapis.com/css?family=Sarabun:100,200,200i,600,800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="font.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
-    <header>
-      <div class="contenedorHeader">
-          <h1>índigo</h1>
-      </div>
-    </header>
+    <!-- Barra de navegación principal -->
+
 
     <body>
-    <section id="inicio"> 
-        <img class="imagenIndigoInicio" src="imagenes/indiWhite.png" width="500" height="500" />
-        <video class="videoBack" src="videos/videoBack2.mp4" muted autoplay loop></video>
-        <div class="mouse"><span></span></div>
-    </section>
-    
-    <section id="nosotros">
-        <div class="sobreNosotros">
-            <h3 class="tituloNosotros">NOSOTROS</h3>
-            <div class="parrafoNosotros">
-                <p>Índigo Cine es un grupo de <b>realizadores y productores audiovisuales</b> recién egresados, generamos contenido propio y para el mundo; vídeo, fotografía, diseño. <br> Dejamos nuestra marca en cada proyecto y creemos que el <b>mensaje</b> y la <b>expresión</b> de una pieza audiovisual van siempre de la mano.
-                <br>Aprendemos de todo trabajo, continuamos formandonos en diferentes áreas y expandiendo nuestros conocimientos y experiencias para obtener en cada ocasión el mejor resultado posible explotando los recursos que tenemos a disposición.</p>
+        <header>
+            <div class="container-header">
+                <h1 class="header-title">índigo</h1>
+            </div>
+        </header>
+    <!-- Sección principal, video y nombre de la productora -->
+    <div class="home">
+        <div class="container-image-indigo">
+            <img src="imagenes/indiWhite.png">
+        </div> 
+        <div class="container-video-back">
+            <video src="videos/videoBack1080.mp4" muted autoplay loop></video>
+        </div>
+        <div class="mouse">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Container acerca de nosotros más imagen ilustrativa -->
+    <div class="container-us">
+        <div class="box-one">
+            <h3 class="title-us">NOSOTROS</h3>
+            <div class="about-us-text">
+                <p>Índigo Cine es un grupo de <span>realizadores y productores audiovisuales</span> recién egresados, generamos contenido propio y para el mundo; vídeo, fotografía, diseño.</p>
+                <p>Dejamos nuestra marca en cada proyecto y creemos que el <span>mensaje</span> y la <span>expresión</span> de una pieza audiovisual van siempre de la mano.</p>
+                <p>Aprendemos de todo trabajo, continuamos formandonos en diferentes áreas y expandiendo nuestros conocimientos y experiencias para obtener en cada ocasión el mejor resultado posible explotando los recursos que tenemos a disposición.</p>
             </div>
         </div>
-        <div class="sobreNosotros">
-            <img class="imagenIndigo" src="imagenes/sobreNosotros.jpg" alt="">
+        <div class="box-two">
+            <img class="image-about-us" src="imagenes/sobreNosotros.jpg" alt="Imagen de Delfina Ciancio, directora de Índigo Cine">
         </div>
-    </section>
+    </div>
+    
+    <!-- Circulos ilustrativos 
+        <div class="filled-circle"></div>
+        <div class="empty-circle"></div> -->
 
-        <div class="circuloRelleno"></div>
-        <div class="circuloVacio"></div>
-
-    <section id="galeria">
-        <div class="galeriaIndigo">
+    <!--Galeria de imagenes y texto acerca del color índigo  -->
+    <div class="gallery">
+        <div class="gallery-indigo">
           <div id="slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="img-fluid" src="imagenes/galeriaDos/000.jpg" alt="Vistas del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/000.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/002.jpg" alt="Exterior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/002.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/003.jpg" alt="Exterior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/003.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/004.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/004.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/005.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/005.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/006.jpg" alt="Exterior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/006.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/007.jpg" alt="Exterior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/007.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/008.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/008.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/009.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/009.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/010.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/010.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/011.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/011.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/012.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/012.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/013.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/013.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/014.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/014.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/015.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/015.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/016.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/016.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/017.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/017.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="imagenes/galeriaDos/018.jpg" alt="Interior del Restaurante Nasif">
+                  <img class="img-fluid" src="imagenes/galeria/018.jpg" alt="Backstage de producciones realizadas por Índigo Cine">
               </div>
             </div>
             <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
@@ -111,44 +124,49 @@
             </a>
           </div>
         </div>
-        <div class="galeriaIndigo">
-          <h3 class="tituloColor">EL COLOR ÍNDIGO</h3>
-          <div class="parrafoIndigo">
-            <p>Este color se combina del azul y el violeta, y contiene atributos de ambos. Posee un gran significado espiritual y estimula la actividad <b>creativa</b> y la <b>imaginación</b>.<br>
-                Representa cualidades como la sabiduría, la intuición, la estructura y el orden. Por otro lado, también habla de confianza, auntenticidad y amistad.<br>
-                <br>
-                Todas estas son nociones que nos gusta promover en nuestro trabajo, y por eso creemos que el color índigo simboliza muy bien nuestra búsqueda ética, estética y narrativa en nuestro recorrido como <b>productora audiovisual.</b></p>
+
+        <!--Texto acerca del color índigo  -->
+        <div class="about-the-color">
+          <h3 class="title-color">EL COLOR ÍNDIGO</h3>
+          <div class="about-color">
+            <p>Este color se combina del azul y el violeta, y contiene atributos de ambos. Posee un gran significado espiritual y estimula la actividad <span>creativa</span> y la <span>imaginación</span>.</p>
+            <p>Representa cualidades como la sabiduría, la intuición, la estructura y el orden. Por otro lado, también habla de confianza, auntenticidad y amistad.</p>
+            <p>Todas estas son nociones que nos gusta promover en nuestro trabajo, y por eso creemos que el color índigo simboliza muy bien nuestra búsqueda ética, estética y narrativa en nuestro recorrido como <span>productora audiovisual.</span></p>
           </div>
         </div>
-    </section>
+    </div>
 
-    <section id="posters">
-        <img class="imagenPoster" src="imagenes/posters/posterUno.jpg" alt="">
-        <img class="imagenPoster" src="imagenes/posters/posterCinco.jpg" alt="">
-        <img class="imagenPoster" src="imagenes/posters/posterTres.jpg" alt="">
-        <img class="imagenPoster" src="imagenes/posters/posterCuatro.jpg" alt="">
-        <img class="imagenPoster" src="imagenes/posters/posterDos.jpg" alt="">
-    </section>
-    <section id="portfolio">
-        <div class="videosPortfolio">
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/0O18vIos7Gg" 
+    <!-- Posters -->
+    <div class="posters">
+        <img class="poster-image" src="imagenes/posters/posterUno.jpg" alt="Poster del videoclip Sunset Loop">
+        <img class="poster-image" src="imagenes/posters/posterCinco.jpg" alt="Poster del videoclip Coraje">
+        <img class="poster-image" src="imagenes/posters/posterTres.jpg" alt="Poster del videoclip Sunset Loop">
+        <img class="poster-image" src="imagenes/posters/posterCuatro.jpg" alt="Poster del cortometraje Azul">
+        <img class="poster-image" src="imagenes/posters/posterDos.jpg" alt="Poster del videoclip Sunset Loop">
+    </div>
+
+    <!-- Portfolio en videos de YouTube -->
+    <div class="portfolio">
+        <div class="videos-portfolio">
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/0O18vIos7Gg" 
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/eWfCc4icBf0" 
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/eWfCc4icBf0" 
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/wZQwgfrvDxA" 
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/wZQwgfrvDxA" 
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/FhLVhAPlpCM"
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/FhLVhAPlpCM"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/2cQ-qHqPrxU"
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/2cQ-qHqPrxU"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="videoYoutube" src="https://www.youtube.com/embed/3Sr2mQ-VLj4"
+            <iframe class="video-youtube" src="https://www.youtube.com/embed/3Sr2mQ-VLj4"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </section>
+    </div>
 
-    <section id="articulos">
+    <!--Notas externas / Bootstrap  -->
+    <div class="articles">
         <div class="card" style="width: 18rem;">
-            <img src="imagenes/rapto.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
+            <img src="imagenes/cards/rapto.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
             <div class="card-body">
               <h5 class="card-title">RAPTO</h5>
               <p class="card-text">Acerca de Azul, cortometraje de Delfina Ciancio y más reciente producción de Índigo Cine.</p>
@@ -157,7 +175,7 @@
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="imagenes/noesfm.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
+            <img src="imagenes/cards/noesfm.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
             <div class="card-body">
               <h5 class="card-title">NOESFM</h5>
               <p class="card-text">La productora audiovisual Índigo Cine presenta “Azul”, su nuevo cortometraje.</p>
@@ -166,7 +184,7 @@
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="imagenes/soundie.jpg" class="card-img-top" alt="Fotograma del videoclip Sunset Loop">
+            <img src="imagenes/cards/soundie.jpg" class="card-img-top" alt="Fotograma del videoclip Sunset Loop">
             <div class="card-body">
               <h5 class="card-title">SOUNDIE Music Awards</h5>
               <p class="card-text">Sunset Loop, producido por Índigo Cine, ganador del Premio al Mejor Videoclip Low Cost</p>
@@ -175,17 +193,19 @@
           </div>
           
           <div class="card" style="width: 18rem;">
-            <img src="imagenes/clapps.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
+            <img src="imagenes/cards/clapps.jpg" class="card-img-top" alt="Fotograma del cortometraje Azul">
             <div class="card-body">
               <h5 class="card-title">CLAPPS</h5>
               <p class="card-text">Una producción de Índigo Cine que explora la propia sexualidad, los vínculos con otros y demás.</p>
               <a target="_blank" href="https://www.clapps.com.ar/azul-cortometraje-de-indigo-cine/" class="btn btn-primary">Ver articulo</a>
             </div>
           </div>
-    </section>
+    </div>
 
-    <section id="contacto">
-        <h5 class="textoContacto">ESCRIBINOS</h5>
+    <!-- Formulario de contacto -->
+    <div class="contact">
+    <div class="container-box">
+            <h1 class="title-contact">ESCRIBINOS</h1>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134646342-1"></script>
         <script>
@@ -195,40 +215,46 @@
           gtag('config', 'UA-134646342-1');
         </script>
     
-        <div class="formulario">
-                <form  action="php/mailer.php" method="post">
-                <input type="text" name="name" placeholder="Nombre" required />
-                <input type="email" name="email" placeholder="Email" required />
-                <input type="text" name="subject" placeholder="Asunto" required />
-                <textarea name="message" placeholder="Mensaje" required></textarea>
-                <input class="boton" type="submit" value="enviar" name="submit">
-                </form>
-        </div>
+    <div class="formulario">
+            <form  action="php/mailer.php" method="post">
+            <input type="text" name="name" placeholder="Nombre" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="subject" placeholder="Asunto" required />
+            <textarea name="message" placeholder="Mensaje" required></textarea>
+            <input class="boton" type="submit" value="enviar" name="submit">
+            </form>
+    </div>
+</div>
+    <!-- Imagen de contacto -->
+    <div class="container-image-contact">
+        <img class="image-contact" src="imagenes/imagenDeContactoUno.jpg" alt="Fotograma del cortometraje Azul">
+    </div>
 
-        <div class="contenedorImagenDeContacto">
-            <img class="imagenDeContacto" src="imagenes/imagenDeContactoUno.jpg" alt="">
-        </div>
-    </section>
-                <!-- LIBRERIAS JS -->
-                <script src="js/jquery.slim.min.js"></script>
-                <script src="js/popper.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="http://code.jquery.com/jquery-latest.js"></script> 
-                <script src="js/animacion.js"></script>
+</div>
+    
+        <!-- LIBRERIAS JS -->
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/main.js"></script>
     </body>
-    <footer class="contenedorFooter">
-        <p class="textoFooter">developed with <svg class="heart" viewBox="0 0 32 29.6">
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <span class="footer-text">developed with <svg class="heart" viewBox="0 0 32 29.6">
           <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
           c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </svg> by <a class="joelbidal" target="_blank" href="https://www.instagram.com/joelbidal/">joelbidal</a></p>
-
-        <div class="social-menu">
-          <ul>
-              <li><a target="_blank" href="https://www.facebook.com/indigocn/"><i class="fa fa-facebook"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/indigocine/"><i class="fa fa-instagram"></i></a></li>
-              <li><a target="_blank" href="https://www.youtube.com/channel/UC_I4BjDn0KXJLYZSjdYrWkg"><i class="fa fa-youtube"></i></a></li>
-          </ul>
-      </div>
+        </svg> by <a class="joelbidal" target="_blank" href="https://www.instagram.com/joelbidal/">joelbidal</a></span>
+    
+    <!-- Redes sociales -->
+    <div class="social-menu">
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/indigocn/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/indigocine/"><i class="fa fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UC_I4BjDn0KXJLYZSjdYrWkg"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
     </footer>
 </html>
 
