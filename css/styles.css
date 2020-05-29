@@ -418,8 +418,6 @@ textarea{
 }
 
 
-
-
 /*Developed by joelbidal*/
 .footer-container{
     width: 100%;
@@ -491,3 +489,219 @@ ol, ul, dl {
     transition: color;
 }
 .social-menu ul li .fa:hover {color:rgb(253, 50, 50)};
+
+
+
+/* Media queries */
+
+/* Desktop version */
+@media screen and (max-width: 2200px){
+    .box-one{background-color: red;}
+    .box-one .title-us {width: 100%; font-size: 35px; padding-top:20%}
+    .box-one .about-us-text{font-size: 30px;}
+
+    .img-fluid {max-width: 105%;}
+    .about-the-color .title-color {font-size: 35px; padding-top: 20%}
+    .about-the-color p{font-size: 30px;}
+
+
+    .posters .poster-image {
+        padding: 5px;
+        max-width: 350px;
+    }
+
+    .portfolio{justify-content: center;}
+    .videos-portfolio {width: 70%;}
+    .portfolio .video-youtube {
+        margin: 20px;
+        width: 620px;
+        height: 345px;}
+
+    .card{width: 25rem;}
+    .articles .card {margin: 20px;}
+
+    .image-contact {
+        max-width: 110%;
+        z-index: -1;
+    }
+
+    .container-box {width: 50%;}
+    .title-contact {width: 500px;}
+    .formulario {width: 400px;} 
+}
+
+/* Desktop version L */
+@media screen and (min-width: 1440px){
+    .box-one .title-us {padding-top:20%}
+    .about-the-color .title-color {padding-top: 20%}
+
+    .img-fluid {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container-box {width: 50%;}
+    .container-image-contact{overflow: hidden;}
+    .image-contact {
+        /* right: -60px; */
+        max-width: 110%;
+    }
+    .title-contact {width: 500px;}
+
+}
+
+@media screen and (max-width: 425px){
+    .mouse{display: none;}
+    
+    .container-image-indigo img {max-width: 200px;}
+    .container-video-back{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;}
+
+    .container-video-back video{
+        width: 300%;
+        height: 100%;
+        left: -400px;}
+
+    .box-one{width: 100%;}
+    .box-one .title-us{margin-top: 20px;} 
+
+    .box-two{width: 100%; background-color: #fff;}
+    .container-us .box-two .image-about-us {max-width: 200px;}
+
+    .gallery{height: auto;}
+    .gallery .gallery-indigo {width: 100%; margin-top: 165%; background-color: #eee;}
+
+    .gallery .gallery-indigo{
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+    #slider{width: 70%;}
+    .about-the-color {width: 100%; background-color: #fff;}
+    .about-the-color .title-color {margin-top: 20px;}
+
+    .posters{
+        height: auto;
+        flex-wrap: wrap;
+        background-color: #eee;
+        padding: 30px 20px;}
+
+    .posters .poster-image{max-width: 200px;}
+
+    .portfolio{ height: auto; background-color: #fff; padding: 30px 0px;}
+
+    .portfolio .video-youtube {
+        padding: 10px;
+        width: 300px;
+        height: 150px;}
+
+    .articles{
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        background-color: #eee;
+        padding-bottom: 30px;
+    }
+    .articles .card {width: 16rem;}
+
+    .contact{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        background-color: #fff;
+    }
+
+    .formulario{padding-bottom: 10px;}
+    .container-image-contact {display: none;}
+
+    input{background-color: #fff;}
+    textarea {background-color: #fff;}
+    .boton {background: #fff;}
+
+    .footer-text{margin-left: 0;}
+    .social-menu{display: none;}
+}
+
+/* Mobile version S */
+@media screen and (max-width: 320px){
+    .mouse{display: none;}
+    
+    .container-image-indigo img {max-width: 200px;}
+    .container-video-back{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;}
+
+    .container-video-back video{
+        width: 300%;
+        height: 100%;
+        left: -300px;}
+
+    .box-one{width: 100%;}
+    .box-one .title-us{margin-top: 20px;} 
+
+    .box-two{width: 100%; background-color: #fff;}
+    .container-us .box-two .image-about-us {max-width: 200px;}
+
+    .gallery{height: auto;}
+    .gallery .gallery-indigo {width: 100%; margin-top: 165%; background-color: #eee;}
+
+    .gallery .gallery-indigo{
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+    #slider{width: 70%;}
+    .about-the-color {width: 100%; background-color: #fff;}
+    .about-the-color .title-color {margin-top: 20px;}
+
+    .posters{
+        height: auto;
+        flex-wrap: wrap;
+        background-color: #eee;
+        padding: 30px 20px;}
+
+    .posters .poster-image{max-width: 200px;}
+
+    .portfolio{ height: auto; background-color: #fff; padding: 30px 0px;}
+
+    .portfolio .video-youtube {
+        padding: 10px;
+        width: 300px;
+        height: 150px;}
+
+    .articles{
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        background-color: #eee;
+        padding-bottom: 30px;
+    }
+    .articles .card {width: 16rem;}
+
+    .contact{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        background-color: #fff;
+    }
+
+    .formulario{padding-bottom: 10px;}
+    .container-image-contact {display: none;}
+
+    input{background-color: #fff;}
+    textarea {background-color: #fff;}
+    .boton {background: #fff;}
+
+    .footer-text{margin-left: 0;}
+    .social-menu{display: none;}
+}
+
