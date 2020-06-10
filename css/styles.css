@@ -262,14 +262,43 @@ header{
 .videos-portfolio{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.portfolio .video-youtube{
-    padding: 5px;
-    width: 420px;
-    height: 240px;
+.portfolio .portada img{
+    margin: 20px 0;
+    max-width: 380px;
+    height: auto;
+}
+
+.portada{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-video{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+
+    opacity: 0;
+}
+.link-video:hover{opacity: 1; background-color: rgba(0, 0, 0, .50);}
+.link-video a{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Sarabun, sans-serif;
+    font-weight: 600;
 }
 
 /* Articulos en cards | Bootstrap */
