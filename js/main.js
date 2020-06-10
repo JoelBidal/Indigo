@@ -2,18 +2,18 @@
 
 $(document).ready(function(){
 
-    $('.container-header,header').click(function(){
+    $('.container-header, header').click(function(){
         $('body, html').animate({
         scrollTop: '0px'
         }, 700);
     });
 
     $(window).scroll(function(){
-        if( $(this).scrollTop() > 0 ){
-            $('.container-header,header').slideDown(500); 
+        if($(this).scrollTop() > 0 ){
+            $('.container-header, header').slideDown(500); 
 
         } else {
-            $('.container-header,header').slideUp(500);
+            $('.container-header, header').slideUp(500);
         }
     });
 });
